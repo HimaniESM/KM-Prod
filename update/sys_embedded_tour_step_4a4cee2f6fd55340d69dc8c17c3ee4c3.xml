@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="lookup.kb_knowledge.x_infte_esm_it_kno_k">b54ce26f6fd55340d69dc8c17c3ee412</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[User who is going to provide the approval for publishing and retiring the knowledge article]]></content>
+        <guide display_value="Knowledge Management Overview">bbdae22f6fd55340d69dc8c17c3ee43d</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 5</name>
+        <options/>
+        <order>5</order>
+        <placement>right</placement>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>Sushil Kumar</sys_created_by>
+        <sys_created_on>2018-04-12 11:14:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a4cee2f6fd55340d69dc8c17c3ee4c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Step 5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_4a4cee2f6fd55340d69dc8c17c3ee4c3</sys_update_name>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-12 11:14:56</sys_updated_on>
+        <target/>
+        <target_ref display_value="lookup.kb_knowledge.x_infte_esm_it_kno_k">b54ce26f6fd55340d69dc8c17c3ee412</target_ref>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>kb_knowledge.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a4cee2f6fd55340d69dc8c17c3ee4c3"/>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="bbdae22f6fd55340d69dc8c17c3ee43d.10.xpat">1e3daa6f6fd55340d69dc8c17c3ee4d2</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Description for the knowledge article.]]></content>
+        <guide display_value="Knowledge Management Overview">bbdae22f6fd55340d69dc8c17c3ee43d</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 10</name>
+        <options/>
+        <order>10</order>
+        <placement>top</placement>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>Sushil Kumar</sys_created_by>
+        <sys_created_on>2018-04-12 11:19:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>963d666f6fd55340d69dc8c17c3ee4e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Step 10</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_963d666f6fd55340d69dc8c17c3ee4e3</sys_update_name>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-12 11:25:16</sys_updated_on>
+        <target/>
+        <target_ref display_value="bbdae22f6fd55340d69dc8c17c3ee43d.10.xpat">1e3daa6f6fd55340d69dc8c17c3ee4d2</target_ref>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>kb_knowledge.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=963d666f6fd55340d69dc8c17c3ee4e3"/>
+</record_update>
