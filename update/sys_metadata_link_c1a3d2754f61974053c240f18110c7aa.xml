@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d2547e6a4fb0130053c240f18110c713</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="kb_knowledge_base">
+    <kb_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_description/>
+        <card_color/>
+        <data_policy display_value="Data policy for IT knowledge base">a175fe6a4fb0130053c240f18110c7cf</data_policy>
+        <description>The ACME North America IT Service Desk Knowledge Base</description>
+        <disable_category_editing>false</disable_category_editing>
+        <disable_commenting>false</disable_commenting>
+        <disable_suggesting>false</disable_suggesting>
+        <enable_socialqa>true</enable_socialqa>
+        <icon/>
+        <kb_managers/>
+        <kb_version>3</kb_version>
+        <mandatory_fields/>
+        <order/>
+        <owner display_value="ESM_ITIL_USER">e1536eae4f70130053c240f18110c731</owner>
+        <question_annotation/>
+        <retire_workflow display_value="Knowledge - Approval Retire (ESM1)">fad16a3a4f78130053c240f18110c716</retire_workflow>
+        <sys_created_by>Sushil_Kumar</sys_created_by>
+        <sys_created_on>2018-03-15 12:49:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2547e6a4fb0130053c240f18110c713</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-06 17:21:34</sys_updated_on>
+        <table>kb_knowledge</table>
+        <template/>
+        <title>IT</title>
+        <workflow display_value="Knowledge - Approval Published (ESM)">eb0076e64fb0130053c240f18110c724</workflow>
+    </kb_knowledge_base>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2547e6a4fb0130053c240f18110c713"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Sushil Kumar</sys_created_by>
+        <sys_created_on>2018-04-19 09:13:36</sys_created_on>
+        <sys_id>c1a3d2754f61974053c240f18110c7aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT</sys_name>
+        <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
+        <sys_update_name>sys_metadata_link_c1a3d2754f61974053c240f18110c7aa</sys_update_name>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 09:13:36</sys_updated_on>
+        <tablename>kb_knowledge_base</tablename>
+    </sys_metadata_link>
+</record_update>
