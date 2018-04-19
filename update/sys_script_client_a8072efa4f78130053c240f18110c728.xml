@@ -4,7 +4,7 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>Making Knowledge Reviewer field mandatory(ESM)</description>
         <field>active</field>
         <global>true</global>
         <messages/>
@@ -22,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a8072efa4f78130053c240f18110c728</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Making Knowledge Reviewer field mandator</sys_name>
         <sys_overrides/>
         <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
@@ -30,7 +30,7 @@
         <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
         <sys_update_name>sys_script_client_a8072efa4f78130053c240f18110c728</sys_update_name>
         <sys_updated_by>Sushil Kumar</sys_updated_by>
-        <sys_updated_on>2018-03-23 06:51:56</sys_updated_on>
+        <sys_updated_on>2018-04-19 11:42:21</sys_updated_on>
         <table>kb_knowledge</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
