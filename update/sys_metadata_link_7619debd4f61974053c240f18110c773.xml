@@ -7,8 +7,10 @@
 <record_update sys_domain="global" table="kb_knowledge">
     <kb_knowledge action="INSERT_OR_UPDATE">
         <active>true</active>
+        <article_id>d0b5dab54f61974053c240f18110c7c1</article_id>
         <article_type>text</article_type>
         <author display_value="Suganya_Nagarajan">1352ceaa6fb01300d69dc8c17c3ee485</author>
+        <base_version/>
         <can_read_user_criteria/>
         <cannot_read_user_criteria/>
         <category/>
@@ -18,18 +20,23 @@
         <disable_commenting>false</disable_commenting>
         <disable_suggesting>false</disable_suggesting>
         <display_attachments>false</display_attachments>
+        <display_number>KB0010187 v1.0</display_number>
         <flagged>false</flagged>
         <image/>
         <kb_category display_value="Technical Design Document">7e978fe24f5ddf0053c240f18110c724</kb_category>
         <kb_knowledge_base display_value="Knowledge">dfc19531bf2021003f07e2c1ac0739ab</kb_knowledge_base>
+        <latest>true</latest>
+        <latest_aqi/>
         <meta/>
         <number>KB0010187</number>
         <published>2018-04-19</published>
         <rating/>
         <retired/>
+        <revised_by/>
         <roles/>
         <short_description>Change Management - Technical Design Document</short_description>
         <source/>
+        <summary display_value="KB0010187">f391e8526fe99740d69dc8c17c3ee4d7</summary>
         <sys_class_name>kb_knowledge</sys_class_name>
         <sys_created_by>Suganya_Nagarajan</sys_created_by>
         <sys_created_on>2018-04-19 09:23:01</sys_created_on>
@@ -39,11 +46,12 @@
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
         <sys_updated_on>2018-04-19 09:24:56</sys_updated_on>
-        <sys_view_count>0</sys_view_count>
+        <sys_view_count>1</sys_view_count>
         <text/>
         <topic>General</topic>
         <use_count>0</use_count>
         <valid_to>2019-04-18</valid_to>
+        <version display_value="1.0">7391e8526fe99740d69dc8c17c3ee4d7</version>
         <wiki/>
         <workflow_state>published</workflow_state>
         <x_infte_esm_it_kno_knowledge_reviewer display_value="Sushil Kumar">2ccb2e264fb0130053c240f18110c7b4</x_infte_esm_it_kno_knowledge_reviewer>
@@ -92,14 +100,14 @@
         <sys_created_by>Suganya_Nagarajan</sys_created_by>
         <sys_created_on>2018-04-19 09:37:28</sys_created_on>
         <sys_id>7619debd4f61974053c240f18110c773</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>KB0010187</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>KB0010187 v1.0</sys_name>
         <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
         <sys_update_name>sys_metadata_link_7619debd4f61974053c240f18110c773</sys_update_name>
         <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
-        <sys_updated_on>2018-04-19 09:37:28</sys_updated_on>
+        <sys_updated_on>2018-04-27 05:20:34</sys_updated_on>
         <tablename>kb_knowledge</tablename>
     </sys_metadata_link>
 </record_update>
