@@ -57,14 +57,14 @@
         <sys_created_by>Sushil_Kumar</sys_created_by>
         <sys_created_on>2018-03-15 12:07:42</sys_created_on>
         <sys_id>1f5b2a264fb0130053c240f18110c7d3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Knowledge Reviewer</sys_name>
         <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
         <sys_update_name>sys_dictionary_kb_knowledge_x_infte_esm_it_kno_knowledge_reviewer</sys_update_name>
-        <sys_updated_by>Sushil_Kumar</sys_updated_by>
-        <sys_updated_on>2018-03-16 06:56:49</sys_updated_on>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-05-16 07:35:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

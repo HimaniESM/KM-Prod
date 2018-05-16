@@ -47,7 +47,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>author,author.email,x_infte_esm_it_kno_knowledge_reviewer</recipient_fields>
+        <recipient_fields>author,author.email,x_infte_esm_it_kno_knowledge_reviewer.user.email</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -62,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d10d0b326f3c1300d69dc8c17c3ee4e7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Knowledge Article has been retired</sys_name>
         <sys_overrides/>
         <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
@@ -70,7 +70,7 @@
         <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
         <sys_update_name>sysevent_email_action_d10d0b326f3c1300d69dc8c17c3ee4e7</sys_update_name>
         <sys_updated_by>Manjeet_kumar</sys_updated_by>
-        <sys_updated_on>2018-03-19 10:26:01</sys_updated_on>
+        <sys_updated_on>2018-05-10 11:36:25</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Knowledge Template">f8bed77a6f3c1300d69dc8c17c3ee42d</template>
         <type>email</type>
