@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source>42a12a22d730210013ab49547e6103b0</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_script_include</source_table>
+        <source_type>2</source_type>
+        <status>0</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>savannah.kesich</sys_created_by>
+        <sys_created_on>2018-06-12 10:05:15</sys_created_on>
+        <sys_id>5455e81b4fae9bc053c240f18110c771</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d4ac3fff5b311200a4656ede91f91af2</sys_name>
+        <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_5455e81b4fae9bc053c240f18110c771</sys_update_name>
+        <sys_updated_by>savannah.kesich</sys_updated_by>
+        <sys_updated_on>2018-06-12 10:05:15</sys_updated_on>
+        <target>e9a507e4532312003585c3c606dc3455</target>
+        <target_scope display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</target_scope>
+        <target_table>sys_script_include</target_table>
+        <target_type>2</target_type>
+    </sys_restricted_caller_access>
+</record_update>
