@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Knowledge Review Approval Reminder</name>
+        <run_as display_value="Suganya_Nagarajan">1352ceaa6fb01300d69dc8c17c3ee485</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-07-16 07:23:22</run_start>
+        <run_time>1970-01-02 02:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[reviewReminder();
+// To trigger a reminder when wf state is review every 3 days and 5 days
+function reviewReminder()
+{
+	var knw= new GlideRecord('kb_knowledge');
+	knw.addQuery('workflow_state',"review");
+	knw.query();
+	
+	while(knw.next())
+	{
+		var dateDiff = parseInt(gs.dateDiff(knw.sys_updated_on.getDisplayValue(),gs.nowDateTime(),true));
+		if(dateDiff >= 259200  && dateDiff < 345600)
+		{
+			
+			gs.eventQueue("global.knowledge.review.reminder3days", knw, gs.getUserID(), gs.getUserName());
+			
+		}
+		else if(dateDiff >= 432000  && dateDiff < 518400)
+		{
+		
+			gs.eventQueue("global.knowledge.review.reminder5days", knw, gs.getUserID(), gs.getUserName());
+			
+		}
+	}
+}
+
+
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-07-16 07:24:30</sys_created_on>
+        <sys_id>2856cbca6fdb5740d69dc8c17c3ee464</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Knowledge Review Approval Reminder</sys_name>
+        <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
+        <sys_update_name>sysauto_script_2856cbca6fdb5740d69dc8c17c3ee464</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-07-16 07:28:11</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Knowledge article Retiring in 15 or 7 days</name>
+        <run_as display_value="Suganya_Nagarajan">1352ceaa6fb01300d69dc8c17c3ee485</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-07-16 07:21:50</run_start>
+        <run_time>1970-01-01 23:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[retireArticle();
+
+function retireArticle()
+{
+	// To check the valid To field is empty or not and wf state as published and Knowledge article Retiring in 15 or 7 days
+	var gdt = new GlideDateTime(gs.now());
+	var gr = new GlideRecord('kb_knowledge');
+	gr.addQuery('active',true);
+	gr.addQuery('valid_to','!=','');
+	gr.addQuery('workflow_state','published');
+	gr.query();
+	while(gr.next())
+	{
+		var gdt1 = new GlideDateTime(gr.valid_to);
+		var diffSeconds = gs.dateDiff(gdt, gdt1, true);
+		var convertsecondstodays = parseInt(diffSeconds)/(60*60*24);
+		
+		if(convertsecondstodays == 15 || convertsecondstodays == 7)
+		{
+			
+			gs.eventQueue("global.kb.article.retiringtogroup", gr, convertsecondstodays, gs.getUserName());
+			
+		}
+		
+	}
+	
+	
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-07-16 07:23:10</sys_created_on>
+        <sys_id>b1f50bca6fdb5740d69dc8c17c3ee453</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Knowledge article Retiring in 15 or 7 days</sys_name>
+        <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
+        <sys_update_name>sysauto_script_b1f50bca6fdb5740d69dc8c17c3ee453</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-07-16 07:27:51</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
