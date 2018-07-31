@@ -12,14 +12,14 @@ Knowledge base = IT</description>
         <sys_created_by>Amit Kumar</sys_created_by>
         <sys_created_on>2018-07-17 12:44:52</sys_created_on>
         <sys_id>c2f81dae4fd7d74053c240f18110c758</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Set Field Values</sys_name>
         <sys_package display_value="ESM IT Knowledge Management" source="x_infte_esm_it_kno">05cf162e4f70130053c240f18110c734</sys_package>
         <sys_policy/>
         <sys_scope display_value="ESM IT Knowledge Management">05cf162e4f70130053c240f18110c734</sys_scope>
         <sys_update_name>sys_atf_step_c2f81dae4fd7d74053c240f18110c758</sys_update_name>
-        <sys_updated_by>Amit Kumar</sys_updated_by>
-        <sys_updated_on>2018-07-17 12:44:52</sys_updated_on>
+        <sys_updated_by>Amit.Kumar</sys_updated_by>
+        <sys_updated_on>2018-07-24 13:26:22</sys_updated_on>
         <table>kb_knowledge</table>
         <test display_value="Knowledge Management -5">07c5ddea4fd7d74053c240f18110c767</test>
         <timeout/>
@@ -33,10 +33,10 @@ Knowledge base = IT</description>
         <sys_created_by>Amit Kumar</sys_created_by>
         <sys_created_on>2018-07-17 12:44:52</sys_created_on>
         <sys_id>677951ee4fd7d74053c240f18110c79c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Amit Kumar</sys_updated_by>
-        <sys_updated_on>2018-07-17 12:44:52</sys_updated_on>
-        <value>kb_knowledge_base=d2547e6a4fb0130053c240f18110c713^EQ</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Amit.Kumar</sys_updated_by>
+        <sys_updated_on>2018-07-24 13:26:22</sys_updated_on>
+        <value>kb_knowledge_base=a7e8a78bff0221009b20ffffffffff17^EQ</value>
         <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

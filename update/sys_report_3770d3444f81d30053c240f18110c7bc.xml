@@ -25,7 +25,7 @@
         <column>kb_knowledge_base</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Sushil Kumar">65df716e4f30130053c240f18110c797</created_by_user>
+        <created_by_user display_value="Sushil Kumar">d01da7b0dba117002061d11c5e961946</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
